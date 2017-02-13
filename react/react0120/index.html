@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<script type="text/javascript" src="js/react.js" ></script><!--核心库-->
+		<script type="text/javascript" src="js/react-dom.js" ></script><!--提供与DOM相关的功能-->
+		<script type="text/javascript" src="js/browser.min.js" ></script><!--将JSX语法转为js语法，很消耗时间，放服务器-->
+	</head>
+	<body>
+		<div id="example"></div>
+	    <script type="text/babel"><!--react独有的JSX语法和js不兼容,所以加上type="text/babel"-->
+	      ReactDOM.render(
+	        <h1>Hello world!</h1>,
+	        document.getElementById('example')
+	      );
+	    </script>
+	</body>
+</html>
